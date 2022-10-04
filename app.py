@@ -12,5 +12,5 @@ sidebar_image()
 st.title('nasDash')
 st.markdown('Loop data from the 2022 Nascar Cup season.')
 
-csv = pd.read_csv('C:/Users/sport/Desktop/Code/Nascar/nasDash_Streamlit/Data/2022_Nascar_Lap_Perc.csv')
+csv = pd.read_csv('Data/2022_Nascar_Lap_Perc.csv')
 del csv[csv.columns[0]]

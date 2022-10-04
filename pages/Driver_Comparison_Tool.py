@@ -11,7 +11,7 @@ from assets.position_comparison import positionComparison
 st.set_page_config(page_title='Lap',layout="wide")
 sidebar_image()
 
-csv = pd.read_csv('C:/Users/sport/Desktop/Code/Nascar/nasDash_Streamlit/Data/2022_Nascar_Lap_Perc.csv')
+csv = pd.read_csv('Data/2022_Nascar_Lap_Perc.csv')
 
 tab1, tab2 = st.tabs(['Lap Average', 'Position'])
 
