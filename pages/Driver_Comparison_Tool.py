@@ -12,10 +12,11 @@ st.set_page_config(page_title='Lap',layout="wide")
 sidebar_image()
 
 csv = pd.read_csv('Data/2022_Nascar_Lap_Perc.csv')
+schedule_csv = pd.read_csv('Data/2022_Nascar_Schedule.csv')
 
 tab1, tab2 = st.tabs(['Lap Average', 'Position'])
 
 with tab1:
-    lapComparison(csv)
+    lapComparison(csv, schedule_csv)
 with tab2:
-    positionComparison(csv)
+    positionComparison(csv, schedule_csv)

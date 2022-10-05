@@ -3,11 +3,17 @@ import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
 
-def lapComparison(dataframe):
+def lapComparison(dataframe, schedule):
     col1, col2, col3, col4 = st.columns(4)
 
+    dfUnique = dataframe['RaceID'].unique()
+    scheduleUnique = schedule[schedule['Race_Id'].isin(dfUnique)].sort_values('Race_Id')
+
     with col1:
-        raceID = st.selectbox('Race', dataframe['RaceID'].unique())
+        #raceID = st.selectbox('Race', dataframe['RaceID'].unique())
+        schedule_value = st.selectbox('Race', scheduleUnique['RaceID_Text'], key='lap')
+        raceID = scheduleUnique.loc[scheduleUnique['RaceID_Text'] == schedule_value, 'Race_Id'].iloc[0]
+        print(raceID)
     
     with col2:
         #.isnull().all()
