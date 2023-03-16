@@ -9,10 +9,10 @@ st.set_page_config(page_title='Lap',layout="wide")
 sidebar_image()
 
 st.title('Driver Comparison Tool')
-st.markdown('Loop data from the 2022 Nascar Cup season.')
+st.markdown('Loop data from the 2023 Nascar Cup season.')
 
-csv = pd.read_csv('Data/2022_Nascar_Lap_Perc.csv')
-schedule_csv = pd.read_csv('Data/2022_Nascar_Schedule.csv')
+csv = pd.read_csv('Data/2023_Nascar_Lap_Perc.csv')
+schedule_csv = pd.read_csv('Data/2023_Nascar_Schedule.csv')
 
 tab1, tab2 = st.tabs(['Lap Average', 'Position'])
 

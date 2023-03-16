@@ -4,22 +4,21 @@ import pandas as pd
 import numpy as np
 
 def lapComparison(dataframe, schedule):
-    col1, col2, col3, col4 = st.columns(4)
+    race, driver, lapType, runNum = st.columns(4)
 
     dfUnique = dataframe['RaceID'].unique()
     scheduleUnique = schedule[schedule['Race_Id'].isin(dfUnique)].sort_values('Race_Id')
 
-    with col1:
+    with race:
         #raceID = st.selectbox('Race', dataframe['RaceID'].unique())
         schedule_value = st.selectbox('Race', scheduleUnique['RaceID_Text'], key='lap')
         raceID = scheduleUnique.loc[scheduleUnique['RaceID_Text'] == schedule_value, 'Race_Id'].iloc[0]
-        print(raceID)
     
-    with col2:
+    with driver:
         #.isnull().all()
         driver = st.multiselect('Driver Name(s)', options=dataframe.loc[dataframe.RaceID == raceID]['Name'].unique(), default=dataframe.loc[dataframe.RaceID == raceID]['Name'].unique()[0])
     
-    with col3:
+    with lapType:
         options = ['5LapAverage', '10LapAverage', '25LapAverage', '50LapAverage']
         optionsRefined = []
         for d in driver:
@@ -34,7 +33,7 @@ def lapComparison(dataframe, schedule):
                 uniq.append(x)
         yAxisVal = st.selectbox('Lap Average #', uniq)
 
-    with col4:
+    with runNum:
         driversRun = []
         for d in driver:
             for i in dataframe.loc[dataframe.RaceID == raceID]['Run'].unique():
@@ -58,4 +57,9 @@ def lapComparison(dataframe, schedule):
         fig.add_trace(go.Scatter(x = dataframeFiltered[dataframeFiltered['Name'] == d]['Lap'],
                                  y = dataframeFiltered[dataframeFiltered['Name'] == d][yAxisVal],
                                  name = d))
+
+    plotTitle = f'Driver Comparison for {schedule_value}<br><sup>Run #{run}</sup>'    
+    
+    fig.update_layout(xaxis_title="Race Laps", yaxis_title="Lap Time (Seconds)", title = plotTitle)    
+    
     st.plotly_chart(fig, use_container_width=True)
