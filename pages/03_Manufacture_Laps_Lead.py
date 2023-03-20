@@ -11,6 +11,6 @@ sidebar_image()
 
 st.title('Manufacture Laps Lead')
 st.markdown('Loop data from the 2022 Nascar Cup season.')
-csv = pd.read_csv('Data/2022_Nascar_Lap_Perc.csv')
-schedule_csv = pd.read_csv('Data/2022_Nascar_Schedule.csv')
+csv = pd.read_csv('Data/2023_Nascar_Lap_Perc.csv')
+schedule_csv = pd.read_csv('Data/2023   _Nascar_Schedule.csv')
 manuLapGraph(csv, schedule_csv)
