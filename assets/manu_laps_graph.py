@@ -18,8 +18,6 @@ def manuLapGraph(dataframe, schedule):
 
     schedule = schedule.rename(columns={'Race_Id': 'RaceID'})
     scheduleID = schedule[['RaceID', 'RaceID_Text']]
-    
-    print(scheduleID)
 
     manufacturer = manufacturer.merge(scheduleID,'inner','RaceID')
     
