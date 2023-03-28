@@ -1,42 +1,42 @@
-,Race_Name,Race_Id,Track_Name,Race_Date_Plain,Current_Winner_Name,Playoff_Round,Actual_Laps,Track_Id,RaceID_Text
-0,NASCAR Cup Series Championship,5309,Phoenix Raceway,2023-11-05,,4,312,84,Phoenix Raceway - NASCAR Cup Series Championship
-1,Xfinity 500,5308,Martinsville Speedway,2023-10-29,,8,500,22,Martinsville Speedway - Xfinity 500
-2,NASCAR Cup Series Race at Homestead Miami,5307,Homestead-Miami Speedway,2023-10-22,,8,267,40,Homestead-Miami Speedway - NASCAR Cup Series Race at Homestead Miami
-3,South Point 400,5306,Las Vegas Motor Speedway,2023-10-15,,8,267,42,Las Vegas Motor Speedway - South Point 400
-4,Bank of America ROVAL 400,5305,Charlotte Motor Speedway Road Course,2023-10-08,,12,109,210,Charlotte Motor Speedway Road Course - Bank of America ROVAL 400
-5,YellaWood 500,5304,Talladega Superspeedway,2023-10-01,,12,188,82,Talladega Superspeedway - YellaWood 500
-6,AutoTrader EchoPark Automotive 400,5303,Texas Motor Speedway,2023-09-24,,12,267,43,Texas Motor Speedway - AutoTrader EchoPark Automotive 400
-7,Bass Pro Shops Night Race,5302,Bristol Motor Speedway,2023-09-16,,16,500,14,Bristol Motor Speedway - Bass Pro Shops Night Race
-8,Hollywood Casino 400 Presented by Barstool Sportsbook,5301,Kansas Speedway,2023-09-10,,16,267,41,Kansas Speedway - Hollywood Casino 400 Presented by Barstool Sportsbook
-9,Cook Out Southern 500,5300,Darlington Raceway,2023-09-03,,16,367,4,Darlington Raceway - Cook Out Southern 500
-10,Coke Zero Sugar 400,5299,Daytona International Speedway,2023-08-26,,,160,105,Daytona International Speedway - Coke Zero Sugar 400
-11,Go Bowling at The Glen,5298,Watkins Glen International,2023-08-20,,,90,157,Watkins Glen International - Go Bowling at The Glen
-12,Verizon 200 at the Brickyard,5295,Indianapolis Motor Speedway Road Course,2023-08-13,,,82,211,Indianapolis Motor Speedway Road Course - Verizon 200 at the Brickyard
-13,FireKeepers Casino 400,5296,Michigan International Speedway,2023-08-06,,,200,133,Michigan International Speedway - FireKeepers Casino 400
-14,NASCAR Cup Series Race at Richmond,5297,Richmond Raceway,2023-07-30,,,400,26,Richmond Raceway - NASCAR Cup Series Race at Richmond
-15,M&M's Fan Appreciation 400,5294,Pocono Raceway,2023-07-23,,,160,198,Pocono Raceway - M&M's Fan Appreciation 400
-16,Crayon 301,5293,New Hampshire Motor Speedway,2023-07-16,,,301,138,New Hampshire Motor Speedway - Crayon 301
-17,Quaker State 400 Presented by Walmart,5292,Atlanta Motor Speedway,2023-07-09,,,260,111,Atlanta Motor Speedway - Quaker State 400 Presented by Walmart
-18,Grant Park 220,5291,Chicago Street Course,2023-07-02,,,100,218,Chicago Street Course - Grant Park 220
-19,Ally 400,5290,Nashville Superspeedway,2023-06-25,,,300,52,Nashville Superspeedway - Ally 400
-20,Toyota / Save Mart 350,5289,Sonoma Raceway,2023-06-11,,,110,99,Sonoma Raceway - Toyota / Save Mart 350
-21,Enjoy Illinois 300 presented by TicketSmarter,5288,World Wide Technology Raceway,2023-06-04,,,240,45,World Wide Technology Raceway - Enjoy Illinois 300 presented by TicketSmarter
-22,Coca-Cola 600,5287,Charlotte Motor Speedway,2023-05-28,,,400,162,Charlotte Motor Speedway - Coca-Cola 600
-23,NASCAR All-Star Race,5286,,2023-05-21,,,200,0, - NASCAR All-Star Race
-24,NASCAR All-Star Open,5285,,2023-05-21,,,1,0, - NASCAR All-Star Open
-25,Goodyear 400,5283,Darlington Raceway,2023-05-14,,,293,4,Darlington Raceway - Goodyear 400
-26,AdventHealth 400,5284,Kansas Speedway,2023-05-07,,,267,41,Kansas Speedway - AdventHealth 400
-27,Wurth 400,5282,Dover Motor Speedway,2023-04-30,,,400,103,Dover Motor Speedway - Wurth 400
-28,GEICO 500,5281,Talladega Superspeedway,2023-04-23,,,188,82,Talladega Superspeedway - GEICO 500
-29,NOCO 400,5275,Martinsville Speedway,2023-04-16,,,400,22,Martinsville Speedway - NOCO 400
-30,Food City Dirt Race,5280,Bristol Motor Speedway,2023-04-09,,,250,14,Bristol Motor Speedway - Food City Dirt Race
-31,Toyota Owners 400,5274,Richmond Raceway,2023-04-02,,,400,26,Richmond Raceway - Toyota Owners 400
-32,EchoPark Automotive Grand Prix,5273,Circuit of The Americas,2023-03-26,,,68,214,Circuit of The Americas - EchoPark Automotive Grand Prix
-33,Ambetter Health 400,5272,Atlanta Motor Speedway,2023-03-19,Joey Logano,,260,111,Atlanta Motor Speedway - Ambetter Health 400
-34,United Rentals Work United 500,5271,Phoenix Raceway,2023-03-12,William Byron,,317,84,Phoenix Raceway - United Rentals Work United 500
-35,Pennzoil 400 presented by Jiffy Lube,5270,Las Vegas Motor Speedway,2023-03-05,William Byron,,271,42,Las Vegas Motor Speedway - Pennzoil 400 presented by Jiffy Lube
-36,Pala Casino 400,5269,Auto Club Speedway,2023-02-26,Kyle Busch,,200,38,Auto Club Speedway - Pala Casino 400
-37,DAYTONA 500,5268,Daytona International Speedway,2023-02-19,Ricky Stenhouse Jr.,,212,105,Daytona International Speedway - DAYTONA 500
-38,Bluegreen Vacations Duel 2 at DAYTONA,5267,Daytona International Speedway,2023-02-16,Aric Almirola,,60,105,Daytona International Speedway - Bluegreen Vacations Duel 2 at DAYTONA
-39,Bluegreen Vacations Duel 1 at DAYTONA,5266,Daytona International Speedway,2023-02-16,Joey Logano,,60,105,Daytona International Speedway - Bluegreen Vacations Duel 1 at DAYTONA
-40,Busch Light Clash at The Coliseum,5259,Los Angeles Memorial Coliseum,2023-02-05,Martin Truex Jr.,,150,217,Los Angeles Memorial Coliseum - Busch Light Clash at The Coliseum
+,Race_Name,Race_Id,Track_Name,Race_Date_Plain,Current_Winner_Name,Playoff_Round,Actual_Laps,Track_Id,RaceID_Text,Exhibition
+0,NASCAR Cup Series Championship,5309,Phoenix Raceway,2023-11-05,,4,312,84,Phoenix Raceway - NASCAR Cup Series Championship,No
+1,Xfinity 500,5308,Martinsville Speedway,2023-10-29,,8,500,22,Martinsville Speedway - Xfinity 500,No
+2,NASCAR Cup Series Race at Homestead Miami,5307,Homestead-Miami Speedway,2023-10-22,,8,267,40,Homestead-Miami Speedway - NASCAR Cup Series Race at Homestead Miami,No
+3,South Point 400,5306,Las Vegas Motor Speedway,2023-10-15,,8,267,42,Las Vegas Motor Speedway - South Point 400,No
+4,Bank of America ROVAL 400,5305,Charlotte Motor Speedway Road Course,2023-10-08,,12,109,210,Charlotte Motor Speedway Road Course - Bank of America ROVAL 400,No
+5,YellaWood 500,5304,Talladega Superspeedway,2023-10-01,,12,188,82,Talladega Superspeedway - YellaWood 500,No
+6,AutoTrader EchoPark Automotive 400,5303,Texas Motor Speedway,2023-09-24,,12,267,43,Texas Motor Speedway - AutoTrader EchoPark Automotive 400,No
+7,Bass Pro Shops Night Race,5302,Bristol Motor Speedway,2023-09-16,,16,500,14,Bristol Motor Speedway - Bass Pro Shops Night Race,No
+8,Hollywood Casino 400 Presented by Barstool Sportsbook,5301,Kansas Speedway,2023-09-10,,16,267,41,Kansas Speedway - Hollywood Casino 400 Presented by Barstool Sportsbook,No
+9,Cook Out Southern 500,5300,Darlington Raceway,2023-09-03,,16,367,4,Darlington Raceway - Cook Out Southern 500,No
+10,Coke Zero Sugar 400,5299,Daytona International Speedway,2023-08-26,,,160,105,Daytona International Speedway - Coke Zero Sugar 400,No
+11,Go Bowling at The Glen,5298,Watkins Glen International,2023-08-20,,,90,157,Watkins Glen International - Go Bowling at The Glen,No
+12,Verizon 200 at the Brickyard,5295,Indianapolis Motor Speedway Road Course,2023-08-13,,,82,211,Indianapolis Motor Speedway Road Course - Verizon 200 at the Brickyard,No
+13,FireKeepers Casino 400,5296,Michigan International Speedway,2023-08-06,,,200,133,Michigan International Speedway - FireKeepers Casino 400,No
+14,NASCAR Cup Series Race at Richmond,5297,Richmond Raceway,2023-07-30,,,400,26,Richmond Raceway - NASCAR Cup Series Race at Richmond,No
+15,M&M's Fan Appreciation 400,5294,Pocono Raceway,2023-07-23,,,160,198,Pocono Raceway - M&M's Fan Appreciation 400,No
+16,Crayon 301,5293,New Hampshire Motor Speedway,2023-07-16,,,301,138,New Hampshire Motor Speedway - Crayon 301,No
+17,Quaker State 400 Presented by Walmart,5292,Atlanta Motor Speedway,2023-07-09,,,260,111,Atlanta Motor Speedway - Quaker State 400 Presented by Walmart,No
+18,Grant Park 220,5291,Chicago Street Course,2023-07-02,,,100,218,Chicago Street Course - Grant Park 220,No
+19,Ally 400,5290,Nashville Superspeedway,2023-06-25,,,300,52,Nashville Superspeedway - Ally 400,No
+20,Toyota / Save Mart 350,5289,Sonoma Raceway,2023-06-11,,,110,99,Sonoma Raceway - Toyota / Save Mart 350,No
+21,Enjoy Illinois 300 presented by TicketSmarter,5288,World Wide Technology Raceway,2023-06-04,,,240,45,World Wide Technology Raceway - Enjoy Illinois 300 presented by TicketSmarter,No
+22,Coca-Cola 600,5287,Charlotte Motor Speedway,2023-05-28,,,400,162,Charlotte Motor Speedway - Coca-Cola 600,No
+23,NASCAR All-Star Race,5286,,2023-05-21,,,200,0, - NASCAR All-Star Race,Yes
+24,NASCAR All-Star Open,5285,,2023-05-21,,,1,0, - NASCAR All-Star Open,Yes
+25,Goodyear 400,5283,Darlington Raceway,2023-05-14,,,293,4,Darlington Raceway - Goodyear 400,No
+26,AdventHealth 400,5284,Kansas Speedway,2023-05-07,,,267,41,Kansas Speedway - AdventHealth 400,No
+27,Würth 400,5282,Dover Motor Speedway,2023-04-30,,,400,103,Dover Motor Speedway - Würth 400,No
+28,GEICO 500,5281,Talladega Superspeedway,2023-04-23,,,188,82,Talladega Superspeedway - GEICO 500,No
+29,NOCO 400,5275,Martinsville Speedway,2023-04-16,,,400,22,Martinsville Speedway - NOCO 400,No
+30,Food City Dirt Race,5280,Bristol Motor Speedway,2023-04-09,,,250,14,Bristol Motor Speedway - Food City Dirt Race,No
+31,Toyota Owners 400,5274,Richmond Raceway,2023-04-02,,,400,26,Richmond Raceway - Toyota Owners 400,No
+32,EchoPark Automotive Grand Prix,5273,Circuit of The Americas,2023-03-26,Tyler Reddick,,75,214,Circuit of The Americas - EchoPark Automotive Grand Prix,No
+33,Ambetter Health 400,5272,Atlanta Motor Speedway,2023-03-19,Joey Logano,,260,111,Atlanta Motor Speedway - Ambetter Health 400,No
+34,United Rentals Work United 500,5271,Phoenix Raceway,2023-03-12,William Byron,,317,84,Phoenix Raceway - United Rentals Work United 500,No
+35,Pennzoil 400 presented by Jiffy Lube,5270,Las Vegas Motor Speedway,2023-03-05,William Byron,,271,42,Las Vegas Motor Speedway - Pennzoil 400 presented by Jiffy Lube,No
+36,Pala Casino 400,5269,Auto Club Speedway,2023-02-26,Kyle Busch,,200,38,Auto Club Speedway - Pala Casino 400,No
+37,DAYTONA 500,5268,Daytona International Speedway,2023-02-19,Ricky Stenhouse Jr.,,212,105,Daytona International Speedway - DAYTONA 500,No
+38,Bluegreen Vacations Duel 2 at DAYTONA,5267,Daytona International Speedway,2023-02-16,Aric Almirola,,60,105,Daytona International Speedway - Bluegreen Vacations Duel 2 at DAYTONA,Yes
+39,Bluegreen Vacations Duel 1 at DAYTONA,5266,Daytona International Speedway,2023-02-16,Joey Logano,,60,105,Daytona International Speedway - Bluegreen Vacations Duel 1 at DAYTONA,Yes
+40,Busch Light Clash at The Coliseum,5259,Los Angeles Memorial Coliseum,2023-02-05,Martin Truex Jr.,,150,217,Los Angeles Memorial Coliseum - Busch Light Clash at The Coliseum,Yes
