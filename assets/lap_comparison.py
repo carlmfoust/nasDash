@@ -6,7 +6,7 @@ import numpy as np
 def lapComparison(dataframe, schedule):
     race, driver, lapType, runNum = st.columns(4)
 
-    dfUnique = dataframe['RaceID'].unique()
+    dfUnique = dataframe['RaceId'].unique()
     scheduleUnique = schedule[schedule['Race_Id'].isin(dfUnique)].sort_values('Race_Id')
 
     with race:
@@ -22,7 +22,7 @@ def lapComparison(dataframe, schedule):
         options = ['5LapAverage', '10LapAverage', '25LapAverage', '50LapAverage']
         optionsRefined = []
         for d in driver:
-            driverDF = dataframe[(dataframe['Name'] == d) & (dataframe['RaceID'] == raceID)]
+            driverDF = dataframe[(dataframe['Name'] == d) & (dataframe['RaceId'] == raceID)]
             for eachOption in options:
                 if not driverDF[eachOption].isnull().all():
                     optionsRefined.append(eachOption)
@@ -37,7 +37,7 @@ def lapComparison(dataframe, schedule):
         driversRun = []
         for d in driver:
             for i in dataframe.loc[dataframe.RaceID == raceID]['Run'].unique():
-                h = dataframe[dataframe['RaceID'] == raceID]
+                h = dataframe[dataframe['RaceId'] == raceID]
                 f = h[h['Run'] == i]
                 f = f[f['Name'] == d]
                 if not f[yAxisVal].isnull().all():
@@ -49,7 +49,7 @@ def lapComparison(dataframe, schedule):
                 uniq.append(x)
         run = st.selectbox('Run #', uniq)
 
-    dataframeFiltered = dataframe[(dataframe['RaceID'] == raceID) & (dataframe['Run'] == run)]
+    dataframeFiltered = dataframe[(dataframe['RaceId'] == raceID) & (dataframe['Run'] == run)]
 
     fig = go.Figure()
 
