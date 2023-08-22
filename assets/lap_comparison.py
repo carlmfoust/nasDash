@@ -16,7 +16,7 @@ def lapComparison(dataframe, schedule):
     
     with driver:
         #.isnull().all()
-        driver = st.multiselect('Driver Name(s)', options=dataframe.loc[dataframe.RaceID == raceID]['Name'].unique(), default=dataframe.loc[dataframe.RaceID == raceID]['Name'].unique()[0])
+        driver = st.multiselect('Driver Name(s)', options=dataframe.loc[dataframe.RaceId == raceID]['Name'].unique(), default=dataframe.loc[dataframe.RaceId == raceID]['Name'].unique()[0])
     
     with lapType:
         options = ['5LapAverage', '10LapAverage', '25LapAverage', '50LapAverage']
@@ -36,7 +36,7 @@ def lapComparison(dataframe, schedule):
     with runNum:
         driversRun = []
         for d in driver:
-            for i in dataframe.loc[dataframe.RaceID == raceID]['Run'].unique():
+            for i in dataframe.loc[dataframe.RaceId == raceID]['Run'].unique():
                 h = dataframe[dataframe['RaceId'] == raceID]
                 f = h[h['Run'] == i]
                 f = f[f['Name'] == d]

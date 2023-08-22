@@ -6,7 +6,7 @@ import numpy as np
 def positionComparison(dataframe, schedule):
     col1, col2 = st.columns(2)
 
-    dfUnique = dataframe['RaceID'].unique()
+    dfUnique = dataframe['RaceId'].unique()
     scheduleUnique = schedule[schedule['Race_Id'].isin(dfUnique)].sort_values('Race_Id')
 
     with col1:
@@ -14,9 +14,9 @@ def positionComparison(dataframe, schedule):
         raceID = scheduleUnique.loc[scheduleUnique['RaceID_Text'] == schedule_value, 'Race_Id'].iloc[0]
     
     with col2:
-        driver = st.multiselect('Driver Name(s)', dataframe.loc[dataframe.RaceID == raceID]['Name'].unique(), default=dataframe.loc[dataframe.RaceID == raceID]['Name'].unique()[0], key='2')
+        driver = st.multiselect('Driver Name(s)', dataframe.loc[dataframe.RaceId == raceID]['Name'].unique(), default=dataframe.loc[dataframe.RaceId == raceID]['Name'].unique()[0], key='2')
 
-    dataframeFiltered = dataframe[dataframe['RaceID'] == raceID]
+    dataframeFiltered = dataframe[dataframe['RaceId'] == raceID]
 
     fig = go.Figure(layout_yaxis_range=[0,40])
 
